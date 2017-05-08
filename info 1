@@ -1,1 +1,71 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Using external stylesheets</title>
+        <style>
+        body {
+            background: rgb(215, 215, 215);
+            font-family: sans-serif;
+        }
+        
+        .header {
+            background-color: rgb(36, 36, 36);
+            color: white;
+            padding: 5px 10px;
+        }
+        
+        .footer {
+            background-color: rgb(222, 222, 222);
+            padding: 6px;
+            clear: both;
+        }
+        
+        #hopper-pic {
+            width: 100px;
+            float: left;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            
+        }
+        
+        #hopper-links {
+            float: right;
+            width: 30%;
+            margin-left: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        
+    <div class="header">
+        <h1>Nokia 3310 </h1>
+    </div>
+     
+    <div id="Nokia-links">
+        <h3>Cool links</h3>
+        <p>Design[edit]
+Here are some web pages explaining the Nokia 3310.
+</p>
+        <ul>
+The Nokia 3310 is a GSM mobile phone announced on September 1, 2000,[2] and released in the fourth quarter of the year, replacing the popular Nokia 3210. It sold very well, being one of the most successful phones with 126 million units sold worldwide.[3] The phone is still widely acclaimed[1] and has gained a cult status due to its durability. It is one of Nokia's most iconic devices.
+
+Several variants of the 3310 have been released, including the Nokia 3315, 3320, 3330, 3350, 3360, 3390 and 3395.
+
+An updated model was launched in 2017. The new Nokia 3310 (2017) model will have a comprehensive update over its predecessor and come with a 2.4" color display, a 2MP rear camera and a microSD slot.[4] Like the original, the new phone will be GSM-based on launch, and will require 2G network coverage for use on any phone network.[5]
+    
+        </ul>
+    </div>
+      
+    <p id="Nokia quote">
+    <img id="https://en.wikipedia.org/wiki/Nokia_3310#/media/File:Nokia_3310_blue.jpg">
+     " an iphone could break this" said no one ever
+    </p>
+    
+    <div class="footer">
+        <p>Contact me for more info at 1-800-UNBREAKABLE.</p>
+    </div>
+
+    </body>
+</html>
