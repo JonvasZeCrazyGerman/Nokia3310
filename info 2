@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Using external stylesheets</title>
+        <style>
+        body {
+            background: rgb(215, 215, 215);
+            font-family: sans-serif;
+        }
+        
+        .header {
+            background-color: rgb(36, 36, 36);
+            color: white;
+            padding: 5px 10px;
+        }
+        
+        .footer {
+            background-color: rgb(222, 222, 222);
+            padding: 6px;
+            clear: both;
+        }
+        
+        #hopper-pic {
+            width: 100px;
+            float: left;
+            margin-right: 6px;
+            margin-bottom: 6px;
+            
+        }
+        
+        #hopper-links {
+            float: right;
+            width: 30%;
+            margin-left: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        
+    <div class="header">
+        <h1>Nokia 3310 </h1>
+    </div>
+     
+    <div id="Nokia-links">
+        <h3>Cool links</h3>
+        <p>Design[edit]
+Here are some web pages explaining the Nokia 3310.
+</p>
+        <ul>
+   Nokia Corporation, stylised as NOKIA, is a Finnish multinational communications and information technology company, founded in 1865. Nokia is headquartered in Espoo, Uusimaa, in the greater Helsinki metropolitan area. Wikipedia
+CEO: Rajeev Suri (May 1, 2014–)
+Headquarters: Espoo, Finland
+Profit: €-912 million (2016); €1.194 billion (2015)
+Stock price: NOKIA (HEL) €5.63 -0.04 (-0.70%)
+May 10, 6:29 PM GMT+3 - Disclaimer
+Customer service: 1 (888) 226-6542
+        </ul>
+    </div>
+      
+    <p id="Nokia quote">
+    <img id="https://en.wikipedia.org/wiki/Nokia_3310#/media/File:Nokia_3310_blue.jpg">
+     " an iphone could break this" said no one ever
+    </p>
+    
+    <div class="footer">
+        <p>Contact me for more info at 1-800-UNBREAKABLE.</p>
+    </div>
+
+    </body>
+</html>
